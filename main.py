@@ -100,8 +100,7 @@ result_chain = (
     | StrOutputParser()
 )
 
-# 13. Chat history
-chat_history = []
+
 
 # 14. Ask questions continuously
 while True:
@@ -120,7 +119,4 @@ while True:
 
     print("\nAnswer:", answer)
 
-    chat_history.append({
-        "Human": question,
-        "AI": answer
-    })
+  
